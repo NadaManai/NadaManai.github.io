@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <style>
+        body {
+            display: flex;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: white;
+            background-color: #003366; /* Dark blue background */
+        }
+        .sidebar {
+            width: 250px;
+            background-color: #002244; /* Slightly darker blue for the sidebar */
+            padding: 20px;
+            position: fixed;
+            height: 100vh;
+        }
+        .sidebar img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+        .sidebar h2 {
+            margin: 10px 0;
+        }
+        .sidebar p {
+            margin: 5px 0;
+        }
+        .sidebar a {
+            color: white;
+            text-decoration: none;
+            display: block;
+            margin: 10px 0;
+        }
+        .sidebar a:hover {
+            text-decoration: underline;
+        }
+        .main-content {
+            margin-left: 270px; /* Adjust based on the sidebar width */
+            padding: 20px;
+        }
+        .main-content h1 {
+            font-size: 2em;
+            font-weight: bold;
+        }
+        .main-content .section {
+            margin-bottom: 20px;
+        }
+        .main-content .section a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #87CEEB; /* Light blue */
+            color: black;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .main-content .section a:hover {
+            background-color: #5f9ea0;
+        }
+        .icon {
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+        .icon img {
+            width: 20px;
+            height: 20px;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <img src="your-image-url.jpg" alt="Profile Picture">
+        <h2>Data Science Student</h2>
+        <p><img src="https://cdn.jsdelivr.net/npm/flag-icons@4.1.1/flags/4x3/tn.svg" alt="Tunisia Flag" class="icon"> Tunisia</p>
+        <a href="https://www.linkedin.com/in/nada-manaii/" target="_blank">
+            <img src="https://image.shutterstock.com/image-vector/linkedin-logo-icon-260nw-2014678181.jpg" alt="LinkedIn Icon" class="icon"> LinkedIn
+        </a>
+        <a href="https://github.com/NadaManai/NadaManai" target="_blank">
+            <img src="https://image.shutterstock.com/image-vector/github-icon-260nw-1499897096.jpg" alt="GitHub Icon" class="icon"> GitHub
+        </a>
+    </div>
+
+    <div class="main-content">
+        <div class="section">
+            <h1>Curriculum Vitae</h1>
+            <p><img src="https://image.shutterstock.com/image-vector/calendar-icon-260nw-1399357754.jpg" alt="Calendar Icon" class="icon"> Update September 2024</p>
+            <a href="https://drive.google.com/file/d/1jc82r9rOueN0rvXUNWucwJzR9c_oRbiG/view?usp=sharing" target="_blank">View CV</a>
+        </div>
+
+        <div class="section">
+            <h2>Contact Me</h2>
+            <p><img src="https://image.shutterstock.com/image-vector/mail-icon-260nw-1676055796.jpg" alt="Mail Icon" class="icon"> nada.manai@esprit.tn</p>
+            <p><img src="https://image.shutterstock.com/image-vector/linkedin-icon-260nw-1449601393.jpg" alt="LinkedIn Icon" class="icon"> <a href="https://www.linkedin.com/in/nada-manaii/" target="_blank">LinkedIn</a></p>
+            <p><img src="https://image.shutterstock.com/image-vector/location-pin-icon-260nw-1759642260.jpg" alt="Pin Icon" class="icon"> Career Objective</p>
+            <p id="objective-paragraph"> <!-- Add paragraph content here --> </p>
+        </div>
+    </div>
+</body>
+</html>
