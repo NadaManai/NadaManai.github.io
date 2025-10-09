@@ -64,8 +64,8 @@
 }
 
 .cert-logo img {
-  width: 180px;
-  height: auto;
+  width: 30px;
+  height: 3Opx;
   filter: grayscale(20%);
   transition: filter 0.3s ease;
 }
