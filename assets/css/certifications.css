@@ -1,25 +1,31 @@
+/* Certifications Section */
 #certifications {
   margin-top: 40px;
   padding: 20px;
   background-color: #fafafa;
   border-radius: 15px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  font-weight: bold; /* All text bold */
+  color: black;      /* All text black */
 }
 
 #certifications h2 {
   text-align: center;
   font-size: 28px;
-  color: #4CAF50;
+  color: #4CAF50; /* Keep the heading green */
   margin-bottom: 30px;
+  font-weight: bold;
 }
 
 .certification {
   background-color: white;
   border-left: 5px solid #4CAF50;
   padding: 20px;
-  margin-bottom: 25px;
+  margin-bottom: 35px; /* More space between certificates */
   border-radius: 12px;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
+  font-weight: bold; /* Text bold inside certificate boxes */
+  color: black;      /* Text black */
 }
 
 .certification:hover {
@@ -29,14 +35,17 @@
 
 .certification h3 {
   font-size: 20px;
-  color: #333;
+  color: black; /* Make heading inside box black */
   margin-bottom: 10px;
+  font-weight: bold;
 }
 
-.certification p, .certification li {
+.certification p,
+.certification li {
   font-size: 15px;
-  color: #555;
+  color: black; /* All paragraph/list text black */
   line-height: 1.6;
+  font-weight: bold;
 }
 
 .certification ul {
@@ -47,8 +56,8 @@
 .cert-link {
   display: inline-block;
   margin-top: 10px;
-  color: #4CAF50;
-  font-weight: 500;
+  color: #4CAF50; /* Links green by default */
+  font-weight: bold;
   text-decoration: none;
   transition: color 0.2s ease;
 }
@@ -65,7 +74,7 @@
 
 .cert-logo img {
   width: 30px;
-  height: 3Opx;
+  height: 30px;
   filter: grayscale(20%);
   transition: filter 0.3s ease;
 }
