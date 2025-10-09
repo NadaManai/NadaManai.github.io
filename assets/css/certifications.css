@@ -1,0 +1,49 @@
+/* === Certifications Section Styling === */
+
+#certifications {
+  padding: 30px 0;
+}
+
+.certification {
+  margin-bottom: 60px; /* adds space between certifications */
+  padding: 15px 25px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.certification h3 {
+  color: #333;
+  margin-bottom: 10px;
+  font-size: 1.4em;
+}
+
+.certification ul {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  padding-left: 20px;
+}
+
+.certification a {
+  color: #007BFF; /* blue for View Certificate links */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.certification a:hover {
+  text-decoration: underline;
+}
+
+.certification p {
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+.certification img {
+  margin-top: 15px;
+  transition: transform 0.3s ease;
+}
+
+.certification img:hover {
+  transform: scale(1.05);
+}
