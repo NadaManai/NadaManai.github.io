@@ -290,27 +290,18 @@
                                  <p><strong>May. 2026 - Present</strong></p>
                                  <p><strong>Keywords:</strong>  Python, RAG, Llama 3.1, FAISS, BM25, Cross-Encoder Reranking, Sentence Transformers, Hugging Face, LangChain, NLP, Information Retrieval, PDF Processing, Financial Documents, Evaluation Framework</p>
                                  <ul>
-                                 <li>Built an end-to-end Retrieval-Augmented Generation (RAG) system using annual reports published by the Tunisian Stock Exchange (BVMT) from 2004 to 2024.</li>
+                                 <li>Built an end-to-end multilingual RAG pipeline using annual reports from BVMT (2004–2024), including PDF extraction, cleaning, and document structuring.</li>
 
-                                 <li>Developed automated PDF processing pipelines to extract, clean, and structure multilingual financial information from annual reports.</li>
+                                 <li>Developed a structure-aware document chunking pipeline using section detection, sentence segmentation, overlapping chunks, duplicate removal, and metadata preservation to improve financial context retrieval.</li>
 
-                                 <li>Implemented hybrid document chunking using semantic chunking and recursive text splitting to improve retrieval quality while preserving financial context.</li>
+                                 <li>Created a FAISS-based vector database with multilingual embeddings and implemented hybrid retrieval combining dense search, BM25, RRF fusion, and BGE Cross-Encoder reranking.</li>
 
-                                 <li>Extracted and organized financial tables, images, metadata, and textual content from reports for downstream indexing and analysis.</li>
+                                 <li>Developed a bilingual financial question-answering system using Llama 3.1 8B Instruct with grounded generation from retrieved report evidence.</li>
 
-                                 <li>Created a vector database using FAISS HNSW indexing and multilingual sentence embeddings for efficient semantic search.</li>
+                                 <li>Built an evaluation framework measuring retrieval and generation quality using Precision@K, Recall@K, MRR, nDCG, Faithfulness, Context Precision, and Answer Relevancy.</li>
 
-                                 <li>Implemented a hybrid retrieval architecture combining dense vector search (FAISS) and sparse retrieval (BM25) using Reciprocal Rank Fusion (RRF).</li>
-
-                                 <li>Integrated BAAI BGE Cross-Encoder reranking to improve retrieval precision and relevance of retrieved financial documents.</li>
-
-                                 <li>Developed a multilingual question-answering system powered by Llama 3.1 8B Instruct capable of answering financial market questions in both French and English.</li>
-
-                                 <li>Engineered prompt templates and context-building strategies to generate grounded responses using only retrieved evidence from annual reports.</li>
-
-                                 <li>Designed and implemented an automated RAG evaluation framework measuring Precision@K, Recall@K, MRR, nDCG, Context Recall, Context Precision, Faithfulness, and Answer Relevancy.</li>
+                                 <li>Deployed the RAG chatbot through an interactive Gradio interface, enabling users to query financial reports and receive evidence-based answers in French and English.</li>
 								 
-                                 <!--<li>Achieved retrieval performance exceeding 94% Recall@5 and 91% Mean Reciprocal Rank (MRR) on a custom evaluation dataset generated from BVMT reports.</li>-->
                                  </ul>
 								 <p>
 									<strong>GitHub Link:</strong> 
